@@ -1,0 +1,175 @@
+@font-face {
+font-family: "HankenGrotesk";
+src: url(/fonts/static/HankenGrotesk-Bold.ttf);
+
+}
+body{
+    width:auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"HankenGrotesk";
+}
+
+.contenedor{
+
+
+width: 600px;
+height: 380px;
+display: flex;
+border-radius: 20px;
+background-color: #ffffff;
+box-shadow: 10px 14px 27px 1px rgba(218,228,239,1);
+}
+
+
+
+.tarjeta-izquierda,
+.tarjeta-derecha{
+    
+    width: 300px;
+    
+}
+.tarjeta-izquierda{
+    background: linear-gradient(0deg, rgba(49,43,235,1) 0%, rgba(126,99,243,1) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    
+}
+
+.titulo{
+    color: #c2b6ff;
+}
+.circulo{
+    width:150px ;
+    height:150px ;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(74,35,203,1) 0%, rgba(70,51,238,1) 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.circulo-item{
+ font-size: 60px;
+ margin: 0;
+ color: #fff;
+ padding-top: 30px;
+}
+ .circulo-subitem{
+    
+    margin:0;
+    color: hsl(246, 100%, 74%);
+    font-size: small;
+    margin-top: -5px;
+
+ }
+ .subtitulo{
+    color: #fff;
+    
+ }
+
+ .tarjeta-izquierda-parrafo{
+
+    color:#c2b6ff ;
+    text-align: center;
+    font-size: 14px;
+    margin-top:-10px ;
+ }
+
+.tarjeta-derecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+ul{
+    padding: 0;
+    height: 100px;
+    margin: 0;
+    
+}
+li{
+    list-style: none; 
+    display:flex ;
+    background-color: #fff6f5;
+    border-radius: 5px;
+    width: 260px;
+    padding: 10px;
+}
+
+img{
+    height: 16px;
+    width: 18px
+}
+.linea{
+    width: 240px;
+    display: flex ;
+    justify-content: space-between;
+}
+.reaction{
+    background-color: rgba(255, 0, 0, 0.081);
+    margin: 20px;
+    font-weight: bold;
+}
+.memory{
+    background-color: rgba(251, 255, 0, 0.068);
+    margin: 20px;
+    font-weight: bold;
+}
+.verval{
+   background-color:rgba(10, 170, 151, 0.13);
+   margin: 20px;
+   font-weight: bold;
+}
+
+.visual{
+    background-color:rgba(63, 0, 253, 0.063) ;
+    margin: 20px;
+    font-weight: bold;
+}
+.linea-numeros{
+    color: black;
+    font-weight: bold;
+    
+}
+.linea-nombres-1{
+    color:#ff0000
+}
+.linea-nombres-2{
+    color:rgb(255, 208, 0) ;
+}
+
+    
+.linea-nombres-3{
+    font-weight: bold;
+    color: rgb(30, 205, 170);
+}
+.linea-nombres-4{
+    
+    color: #0c3bba;
+}
+span span{
+    color: #313030a9;
+}
+.boton{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #303b59;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin-top: 155px;
+    
+}
+.boton:hover{
+
+    color: rebeccapurple;
+    background-color: aquamarine;
+
+}
+
+
